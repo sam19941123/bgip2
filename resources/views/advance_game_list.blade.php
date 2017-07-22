@@ -15,12 +15,12 @@
 }
 </style>
 
-<a href="/" class="btn btn-danger btn-sm">BACK</a>
+<a href="/search" class="btn btn-danger btn-sm">BACK</a>
 @if(count($games) == 0)
-<h4>Result of "{{ $keyword }}"：Not found</h4>
+<h4>Result of "{{ $bg_en_name }}"：Not found</h4>
 @else
 
-<h4>Result of "{{ $keyword }}"：</h4>
+<h4>Result of "{{ $bg_en_name }}"：</h4>
 @foreach($games as $game)
 <div class="col-md-4">
     <div name="panel" class="panel panel-default" id="{{$game->bggid}}">
@@ -33,13 +33,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <h5 class="text-center">{{ $game->name_english }}</h5>
+                        <h5 class="text-center">{{ $game->name_eng }}</h5>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <div class="text-center">
-                            <a href="/game/{{$game->bggid}}" class="btn btn-default">Detail</a>
+                            <a href="/games/{{$game->id}}" class="btn btn-default">Detail</a>
                         </div>
                     </td>
                 </tr>

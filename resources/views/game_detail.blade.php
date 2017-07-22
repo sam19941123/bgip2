@@ -100,7 +100,7 @@ $(document).ready(function(){
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade in active" id="comment">
-        <table class="table table-bordered"
+        <table class="table table-bordered">
         <tr><br></tr>
                 @foreach($comments as $com)
                 <tr>

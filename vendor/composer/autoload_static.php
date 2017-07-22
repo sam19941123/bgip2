@@ -273,17 +273,13 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
 
     public static $classMap = array (
         'Advanced' => __DIR__ . '/../..' . '/database/migrations/2017_06_17_070854_advanced.php',
-        'Categories' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145816_categories.php',
+        'ChineseResource' => __DIR__ . '/../..' . '/database/migrations/2017_07_10_141503_chinese_resource.php',
         'Comment' => __DIR__ . '/../..' . '/database/migrations/2017_03_22_130525_comment.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
         'Files' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_130305_files.php',
-        'GameCategory' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145827_game_category.php',
-        'GameDesigner' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145843_game_designer.php',
-        'GameMechanic' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145835_game_mechanic.php',
-        'GetDataError' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145852_get_data_error.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -353,7 +349,6 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
         'Link' => __DIR__ . '/../..' . '/database/migrations/2017_03_29_062240_link.php',
-        'Mechanics' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_145902_mechanics.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/Assert.php',
         'PHPUnit\\Framework\\BaseTestListener' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/BaseTestListener.php',
         'PHPUnit\\Framework\\TestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/TestCase.php',
@@ -813,7 +808,6 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
-        'flights' => __DIR__ . '/../..' . '/database/migrations/2017_04_23_141503_flights.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

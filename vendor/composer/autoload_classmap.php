@@ -7,17 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Advanced' => $baseDir . '/database/migrations/2017_06_17_070854_advanced.php',
-    'Categories' => $baseDir . '/database/migrations/2017_04_01_145816_categories.php',
+    'ChineseResource' => $baseDir . '/database/migrations/2017_07_10_141503_chinese_resource.php',
     'Comment' => $baseDir . '/database/migrations/2017_03_22_130525_comment.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
     'Files' => $baseDir . '/database/migrations/2017_04_01_130305_files.php',
-    'GameCategory' => $baseDir . '/database/migrations/2017_04_01_145827_game_category.php',
-    'GameDesigner' => $baseDir . '/database/migrations/2017_04_01_145843_game_designer.php',
-    'GameMechanic' => $baseDir . '/database/migrations/2017_04_01_145835_game_mechanic.php',
-    'GetDataError' => $baseDir . '/database/migrations/2017_04_01_145852_get_data_error.php',
     'Hamcrest\\Arrays\\IsArray' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
     'Hamcrest\\Arrays\\IsArrayContaining' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
     'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -87,7 +83,6 @@ return array(
     'Hamcrest\\Util' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
     'Link' => $baseDir . '/database/migrations/2017_03_29_062240_link.php',
-    'Mechanics' => $baseDir . '/database/migrations/2017_04_01_145902_mechanics.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/Assert.php',
     'PHPUnit\\Framework\\BaseTestListener' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/BaseTestListener.php',
     'PHPUnit\\Framework\\TestCase' => $vendorDir . '/phpunit/phpunit/src/ForwardCompatibility/TestCase.php',
@@ -547,5 +542,4 @@ return array(
     'SebastianBergmann\\ResourceOperations\\ResourceOperations' => $vendorDir . '/sebastian/resource-operations/src/ResourceOperations.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
-    'flights' => $baseDir . '/database/migrations/2017_04_23_141503_flights.php',
 );
