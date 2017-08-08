@@ -272,14 +272,15 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
     );
 
     public static $classMap = array (
-        'Advanced' => __DIR__ . '/../..' . '/database/migrations/2017_06_17_070854_advanced.php',
+        'Accounts' => __DIR__ . '/../..' . '/database/migrations/2017_07_30_160550_accounts.php',
+        'Advanced' => __DIR__ . '/../..' . '/database/old migrations/2017_06_17_070854_advanced.php',
         'ChineseResource' => __DIR__ . '/../..' . '/database/migrations/2017_07_10_141503_chinese_resource.php',
-        'Comment' => __DIR__ . '/../..' . '/database/migrations/2017_03_22_130525_comment.php',
+        'Comment' => __DIR__ . '/../..' . '/database/old migrations/2017_03_22_130525_comment.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'Files' => __DIR__ . '/../..' . '/database/migrations/2017_04_01_130305_files.php',
+        'Files' => __DIR__ . '/../..' . '/database/old migrations/2017_04_01_130305_files.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -728,6 +729,7 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'PasswordResets' => __DIR__ . '/../..' . '/database/migrations/2017_08_07_162304_password_resets.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -808,6 +810,7 @@ class ComposerStaticInit51d9e3511a00f55db9c12f9cca5d448c
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
+        'Users' => __DIR__ . '/../..' . '/database/migrations/2017_08_07_073859_users.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

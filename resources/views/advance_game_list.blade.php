@@ -1,5 +1,7 @@
 @extends('main')
-
+@section('title')
+搜尋結果
+@endsection
 
 
 @section('content')
@@ -14,7 +16,9 @@
     border: none;
 }
 </style>
-
+<div style="display:none" name="main" class="col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+      <div class="panel-body">
 <a href="/search" class="btn btn-danger btn-sm">BACK</a>
 @if(count($games) == 0)
 <h4>Result of "{{ $bg_en_name }}"：Not found</h4>
@@ -49,5 +53,7 @@
 </div>
 @endforeach
 @endif
-
+</div>
+    </div>
+</div>
 @endsection

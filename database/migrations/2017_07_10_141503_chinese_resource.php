@@ -18,6 +18,7 @@ class ChineseResource extends Migration
             $table->increments('id');      
             $table->string('bggid');
             $table->string('author');
+            $table->string('name_eng');
             $table->string('content');
         });
     }

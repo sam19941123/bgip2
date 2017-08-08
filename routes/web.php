@@ -29,5 +29,21 @@ Route::get('/games/{id}','detail@get_game_detail');
 Route::get('/games/{id}/edit','detail@edit_chinese');
 Route::post('/games/{id}','detail@send_chinese');
 
+Route::get('/resources', 'detail@resources');
 Route::get('/games/{id}/resources', 'detail@check_resources');
 Route::post('/games/{id}/confirm', 'detail@confirm_resources');
+
+//Route::get('/login', 'account@login');
+//Route::get('/login/send', 'account@send_login');
+//Route::get('/register', 'account@signup');
+//Route::post('/register/send', 'account@send_signup');
+//Route::get('/profile', 'account@profile');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+Route::get('/profile', 'profile@get_profile');
+Route::get('/profile/edit', 'profile@edit_profile');
+Route::post('/profile', 'profile@update_profile');
+Route::post('/profile/icon-upload','profile@iconUpload'); 
+Route::post('/profile/icon','profile@iconUpload'); 
